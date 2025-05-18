@@ -1,0 +1,141 @@
+*{
+	box-sizing: border-box;
+	font-family: georgia;
+}
+
+html{
+	height: 100%;
+	margin:0;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin:0;
+}
+
+main {
+	flex: 1;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.studycont{
+	width: 80%;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 40px;
+
+}
+
+.study img{
+	overflow: hidden;
+	width: 100%;
+}
+
+.study{
+	display: flex;
+	padding: 20px;
+	width:350px ;
+	height: 275px;
+	background-color: #e8eaed;
+	border-radius: 5px;
+	flex-direction: column;
+	gap: 20px;
+	transition: all 0.3s ease;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.study:hover {
+	border-radius: 20px;
+	transform: scale(1.05);
+	 
+}
+
+.study:active {
+
+	  transform: scale(1.025);
+	 
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+/*	height: 80px;*/
+/*	background-color: #b2cdf7;*/
+
+}
+
+.header img{
+	width: 125px;
+}
+
+#mtitle{
+	display: flex;
+	flex-direction: row;
+	gap:5px;
+	padding: 20px;
+}
+
+#headerverse{
+	padding: 20px;
+}
+ h1, h2, h3, div,a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.studycont p{
+/*	text-transform: uppercase;*/
+margin:0;
+}
+
+.study img {
+	width: 310px;
+	height: 160px;
+}
+
+@media (max-width: 1000px) {
+	.study p{
+		font-size: x-large !important;
+	}
+
+.studycont{
+	width: 95%;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 4vw;
+
+}
+}
+
+.pdfCont{
+	height:90%;
+	width: 80%;
+}
+
+footer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 30px;
+font-style: italic;
+background-color: #3A6F8A;
+padding: 20px;
+
+}
+
+footer p {
+	color: white;
+}
