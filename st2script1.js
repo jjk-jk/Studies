@@ -1,4 +1,4 @@
- const url = 'bible-studies/am-i-a-sinner-first-4-commandments.pdf'; // path to your PDF file
+ const url = 'am-i-a-sinner-first-4-commandments.pdf'; // path to your PDF file
 const container = document.getElementById('pdf-scroll-viewer');
     const scale = 1.5;
 
